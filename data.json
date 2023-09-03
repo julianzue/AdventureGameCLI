@@ -1,0 +1,71 @@
+{
+  "title": "Lost in the Enchanted Forest",
+  "startScene": "scene1",
+  "scenes": {
+    "scene1": {
+      "description": "You wake up in the middle of a dense, mysterious forest. The trees are towering, and the air is thick with magic. What do you do?",
+      "choices": [
+        {
+          "text": "Explore deeper into the forest.",
+          "destination": "scene2a"
+        },
+        {
+          "text": "Try to find a way out of the forest.",
+          "destination": "scene2b"
+        }
+      ]
+    },
+    "scene2a": {
+      "description": "As you venture deeper into the forest, you encounter a friendly fairy who offers to guide you. Do you accept the fairy's help?",
+      "choices": [
+        {
+          "text": "Accept the fairy's help.",
+          "outcome": "You and the fairy embark on an enchanting journey through the forest, discovering its secrets and beauty. Along the way, you encounter a hidden waterfall and a grove of talking animals. Eventually, you find your way out of the forest, filled with wonder and gratitude. The fairy grants you a magical token as a token of your friendship."
+        },
+        {
+          "text": "Decline the fairy's help.",
+          "outcome": "You continue your journey alone, facing various challenges and dangers. You encounter a mischievous gnome who steals your supplies but also discover a hidden clearing with magical mushrooms that heal your wounds. After a long and perilous adventure, you eventually stumble upon an exit, exhausted but proud of your independence."
+        }
+      ]
+    },
+    "scene2b": {
+      "description": "You decide to find a way out of the forest on your own. After hours of wandering, you encounter a fork in the path. Which direction do you choose?",
+      "choices": [
+        {
+          "text": "Go left.",
+          "outcome": "You follow the left path and eventually find your way out of the forest. Along the way, you stumble upon a hidden treasure chest filled with gold and gems. You're relieved to be free and wealthy, carrying with you the memory of the enchanted forest forever."
+        },
+        {
+          "text": "Go right.",
+          "destination": "scene3"
+        }
+      ]
+    },
+    "scene3": {
+      "description": "Going right leads you deeper into the forest's heart. You find yourself in an eerie, foggy glade. In the distance, you spot a mysterious, ancient-looking cabin. What will you do?",
+      "choices": [
+        {
+          "text": "Approach the cabin cautiously.",
+          "outcome": "You cautiously approach the cabin and discover it's inhabited by a friendly old witch. She offers you shelter for the night and tells you fascinating stories about the forest's history. In the morning, she gives you a magical amulet that guides you safely out of the forest. You leave with newfound wisdom and a sense of gratitude for the forest's mysteries."
+        },
+        {
+          "text": "Avoid the cabin and continue through the glade.",
+          "destination": "scene4"
+        }
+      ]
+    },
+    "scene4": {
+      "description": "You decide not to trust the strange cabin and continue through the glade. As you press forward, you encounter a pack of enchanted wolves. They seem aggressive at first, but you notice one of them has a gleaming collar with a message. What do you do?",
+      "choices": [
+        {
+          "text": "Approach cautiously and read the message.",
+          "outcome": "You approach the wolves cautiously and read the message on the collar. It turns out they are guardians of the forest and are protecting its secrets. You convince them that you mean no harm, and they lead you to the heart of the forest, where you discover a hidden portal that takes you safely back home. You become a protector of the forest, visiting it in your dreams."
+        },
+        {
+          "text": "Retreat and find another path.",
+          "outcome": "Fearing the wolves, you decide to retreat and find another path. You stumble upon a magical meadow filled with fireflies that lead you out of the forest. While you escape unharmed, you always wonder about the wolves and the secrets they guarded."
+        }
+      ]
+    }
+  }
+}
